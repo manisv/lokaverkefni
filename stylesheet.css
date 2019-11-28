@@ -1,12 +1,9 @@
-*{
-    max-width: 100%;
-}
 h1{
     text-align: center;
 }
 header{
     display: grid;
-    background-color: green;
+    background-color: #fb7e14;
 }
 body{
     display: grid;
@@ -16,23 +13,27 @@ body{
     "main"
     "footer";
     max-width: 100%;
-    background-color: black;
+    background-color:  	#292929;
 }
 main{
     display:grid;
-    background-color: yellow;
+    color: #cfc3c0;
 }
 .section1{
     display:grid;
-    background-color: red;
+    padding: 10px;
 }
 .section2{
     display:grid;
-    background-color: brown
+    background-color: ;
+    padding: 10px;
 }
 footer{
     display:grid;
-    background-color: slateblue
+    background-color: #fb7e14
+}
+section h2{
+    text-align: center;
 }
 @media only screen and (max-width: 37.5em){
 
@@ -42,3 +43,16 @@ footer{
 }
 @media only screen and (max-width: 60em){
 
+}
+@media screen and (min-width: 80em) { 
+    /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 80em skjástærð */  
+    body{
+      max-width: 80em;
+      margin: 0 auto;
+    }
+    section p{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    
+  }
