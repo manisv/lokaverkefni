@@ -25,7 +25,6 @@ main{
 }
 .section2{
     display:grid;
-    background-color: ;
     padding: 10px;
 }
 footer{
@@ -34,6 +33,20 @@ footer{
 }
 section h2{
     text-align: center;
+}
+.Takki{
+    background-color: #cfc3c0; /* Green */
+    border: none;
+    color: #292929;
+    padding: 7.5px 15px;
+    border-radius: 25%;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    position: fixed;
+    font-size: 32px;
+    bottom: 2em;
+    right: 2em;
 }
 @media only screen and (max-width: 37.5em){
 
@@ -46,13 +59,14 @@ section h2{
 }
 @media screen and (min-width: 80em) { 
     /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 80em skjástærð */  
-    body{
-      max-width: 80em;
+    main{
+      max-width: 60em;
       margin: 0 auto;
     }
-    section p{
-        padding-right: 5px;
-        padding-left: 5px;
+    .haus footer{
+        max-width: 100%;
     }
-    
+    main{
+        font-size: 16px;
+    }
   }
