@@ -1,5 +1,7 @@
 h1{
     text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 50PX;
 }
 header{
     display: grid;
@@ -33,6 +35,7 @@ footer{
 }
 section h2{
     text-align: center;
+    font-family: 'Source Code Pro', monospace;
 }
 .Takki{
     background-color: #cfc3c0; /* Green */
@@ -47,6 +50,9 @@ section h2{
     font-size: 32px;
     bottom: 2em;
     right: 2em;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
 }
 @media only screen and (max-width: 37.5em){
 
