@@ -33,6 +33,17 @@ footer{
     display:grid;
     background-color: #fb7e14
 }
+.innermenu{
+    display:flex;
+    justify-content: center;
+}
+.innermenu a{
+    border-right: #fb7e14 solid 1px;
+    padding: 4px;
+}
+.byrjun{
+    border-left: #fb7e14 solid 1px;
+}
 section h2{
     text-align: center;
     font-family: 'Source Code Pro', monospace;
