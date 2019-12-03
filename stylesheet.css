@@ -24,17 +24,14 @@ main{
     display:grid;
     color: #cfc3c0;
 }
-.section1{
-    display:grid;
-    padding: 10px;
-}
-.section2{
+section{
     display:grid;
     padding: 10px;
 }
 footer{
     display:grid;
-    background-color: #fb7e14
+    background-color: #fb7e14;
+    padding-left: 5px
 }
 .innermenu{
     display:flex;
@@ -51,6 +48,19 @@ section h2{
     text-align: center;
     font-family: 'Source Code Pro', monospace;
 }
+
+img{
+    max-width: 100%;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+dl{
+    font-family: 'Source Code Pro', monospace;
+}
+dl a{
+    color: #0033FF
+}
 .Takki{
     background-color: #cfc3c0; /* Green */
     border: none;
@@ -61,24 +71,33 @@ section h2{
     text-decoration: none;
     display: block;
     position: fixed;
-    font-size: 32px;
-    bottom: 2em;
-    right: 2em;
-}
-img{
-    max-width: 100%;
-}
-p{
-    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    bottom: 5px;
+    right: 5px;
+    opacity: 50%;
 }
 @media only screen and (max-width: 37.5em){
-
+    
 }
 @media only screen and (max-width: 48em){
-
+    .Takki{
+        background-color: #cfc3c0; /* Green */
+        border: none;
+        color: #292929;
+        padding: 7.5px 15px;
+        border-radius: 25%;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        position: fixed;
+        font-size: 24px;
+        bottom: 5px;
+        right: 5px;
+        opacity: 50%;
+    }
 }
 @media only screen and (max-width: 60em){
-
+    
 }
 @media screen and (min-width: 80em) { 
     /* kóði sem yfirritar fyrri skipanir og nýjar skipanir sem eiga við 80em skjástærð */  
@@ -91,5 +110,19 @@ p{
     }
     main{
         font-size: 16px;
+    }
+    .Takki{
+        background-color: #cfc3c0; /* Green */
+        border: none;
+        color: #292929;
+        padding: 7.5px 15px;
+        border-radius: 25%;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        position: fixed;
+        font-size: 32px;
+        bottom: 2em;
+        right: 2em;
     }
   }
